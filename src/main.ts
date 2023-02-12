@@ -1,7 +1,6 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { SunsetTransModule } from './app/sunset-trans.module';
 
-import { AppModule } from './app/app.module';
 
-
-platformBrowserDynamic().bootstrapModule(AppModule)
+platformBrowserDynamic().bootstrapModule(SunsetTransModule)
   .catch(err => console.error(err));
