@@ -1,0 +1,22 @@
+@import '../../ui/styles/color-palette.scss';
+
+#app-header {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 1%;
+    height: 15vh;
+    justify-content: left;
+    align-items: center;
+    background-color: $sunset-orange;
+}
+
+#app-header h1 {
+    flex: 3;
+    color: $white
+}
+
+#app-reset-btn {
+    flex: 1;
+    height: 50%;
+    width: 20%;
+}

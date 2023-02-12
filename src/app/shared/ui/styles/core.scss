@@ -1,0 +1,21 @@
+@import './color-palette.scss';
+
+body {
+    margin: 0;
+}
+
+.btn {
+    background-color: $white;
+    border-radius: 5px;
+    border-style: none;
+    outline-style: solid;
+    outline-color: $burnt-orange;
+    font-size: 1.5rem;
+    color: $brown;
+
+    &:active {
+        background-color: $burnt-orange;
+        outline-color: $brown;
+        color: $white;
+    }
+}
