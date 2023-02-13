@@ -1,0 +1,25 @@
+@import '../shared/ui/styles/core.scss';
+
+#landing-page-body {
+    height: 83vh;
+    background-color: $sherbet-orange;
+}
+
+#landing-page-header {
+    animation: fadeIn 3s;
+    display: flex;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: #fedb9b;
+}
+
+
+.sunset-img {
+    height: 30%;
+    background-image: url('../shared/ui/icons/sunrise.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    filter: brightness(0) saturate(100%) invert(79%) sepia(62%) saturate(522%) hue-rotate(349deg) brightness(101%) contrast(98%);
+}

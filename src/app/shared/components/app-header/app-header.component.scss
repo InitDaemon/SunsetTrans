@@ -3,7 +3,7 @@
 #app-header {
     display: flex;
     flex-wrap: wrap-reverse;
-    padding: 1%;
+    padding: 1vh 1vw;
     height: 15vh;
     justify-content: left;
     align-items: center;
@@ -12,11 +12,19 @@
 
 #app-header h1 {
     flex: 3;
-    color: $white
+    color: $white;
 }
 
 #app-reset-btn {
     flex: 1;
     height: 50%;
-    width: 20%;
+}
+
+#sunset-trans-logo {
+    flex: .4;
+    height: 50%;
+    background-image: url('../../ui/icons/sunrise.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
